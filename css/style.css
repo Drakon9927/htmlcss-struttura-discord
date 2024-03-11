@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: white   ;
+}
+
+.containerazzurro{
+    background-color: #A3CBD9;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 2rem;
+}
+
+.logobox{
+    min-width: 20%;
+    background-color: #CD9B20;
+    border: 2px dashed black;
+    height: 3rem;
+    display: flex;
+    align-items: center; 
+}
+
+.logobox2{
+    display: flex;
+    min-width: 20%;
+    flex-direction: row-reverse;
+    background-color: #CD9B20;
+    border: 2px dashed black;
+    height: 3rem;
+    display: flex;
+    align-items: center; 
+}
+
+.linkbox{
+    text-align: center;
+    border: 2px dashed black;
+    min-width: 60%;   
+    background-color: #CD9B20;
+    height: 3rem;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
