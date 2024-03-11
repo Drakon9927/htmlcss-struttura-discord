@@ -15,7 +15,7 @@ body {
 /* Header Gold */
 header{
     display: flex;
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     justify-content: space-between;
     padding: 20px;
@@ -65,7 +65,7 @@ header{
 /* Container rosa */
 .pinkcontainer{
     height: 70%;
-    min-width: 70%;
+    min-width: 60%;
     background-color: #EE82EE;
     border: 2px dashed black;
 }
@@ -81,14 +81,14 @@ header{
 
 .c2box{
     height: 80%;
-    min-width: 45%;
+    min-width: 40%;
     background-color: #1E90FF;
     border: 3px dashed black;
 }
 
 .c2box2{
     height: 80%;
-    min-width: 35%;
+    min-width: 30%;
     background-color: #FFC0CB;
     border: 3px dashed black;
 }
@@ -108,6 +108,59 @@ header{
 
 .c3box{
     height: 90%;
-    min-width: 80%;
+    min-width: 70%;
     background-color: #228B22;
+    border: 2px dashed black;
+}
+
+/* Container ossidiana */
+.container-obsidian{
+    display: flex;
+    height: 60vh;
+    justify-content: center;
+    background-color: #23272A;
+}
+
+.c4box{
+    height: 90%;
+    min-width: 23.33%;
+    background-color: #F08080;
+    border: 4px dashed black;
+    margin-top: 10px;
+}
+
+.c4box2{
+    height: 90%;
+    min-width: 11.67%;
+    background-color: #20B2AA;
+    border: 2px dashed white;
+    margin-top: 10px;
+}
+
+/* Footer */
+
+footer{
+    display: flex;
+    margin-top: 2px;
+    height: 10vh;
+    background-color: #23272A;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 1px;
+}
+
+.minibox{
+    display: flex;
+    background-color: #7FFFD4;
+    height: 3rem;
+    min-width: 70%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo2, .bottonetext{
+    background-color: #FFB6C1;
+    border: 2px dashed black;
+    padding: 5px;
 }
