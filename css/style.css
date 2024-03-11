@@ -70,7 +70,7 @@ header{
     border: 2px dashed black;
 }
 
-/* Container2 */
+/* Container2 (3 blocchi) */
 
 .container2{
     display: flex;
@@ -95,4 +95,19 @@ header{
 
 .cgrigio{
     background-color: #D3D3D3;
+}
+
+/* Container 3 verde */
+
+.container3{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c3box{
+    height: 90%;
+    min-width: 80%;
+    background-color: #228B22;
 }
