@@ -5,14 +5,14 @@
 }
 
 body {
-    background: white   ;
+    
 }
 
 .containerazzurro{
     background-color: #A3CBD9;
-    height: 100vh;
+    height: 78vh;
 }
-
+/* Header Gold */
 header{
     display: flex;
     width: 80%;
@@ -51,4 +51,48 @@ header{
     display: flex;
     align-items: center; 
     justify-content: center;
+}
+
+/* Container blue */
+
+.containerblue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background-color: #00008B;
+}
+/* Container rosa */
+.pinkcontainer{
+    height: 70%;
+    min-width: 70%;
+    background-color: #EE82EE;
+    border: 2px dashed black;
+}
+
+/* Container2 */
+
+.container2{
+    display: flex;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.c2box{
+    height: 80%;
+    min-width: 45%;
+    background-color: #1E90FF;
+    border: 3px dashed black;
+}
+
+.c2box2{
+    height: 80%;
+    min-width: 35%;
+    background-color: #FFC0CB;
+    border: 3px dashed black;
+}
+
+.cgrigio{
+    background-color: #D3D3D3;
 }
